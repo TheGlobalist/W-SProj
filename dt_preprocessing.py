@@ -7,3 +7,8 @@ def loadDatasetOne():
     dt = pd.concat([dt, oldColumns.to_frame().T])
     dt.columns = ['anno','keywordOne','keywordTwo','relationship']
     return dt
+
+
+
+dt = loadDatasetOne()
+print(dt)
