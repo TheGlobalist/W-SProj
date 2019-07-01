@@ -1,0 +1,847 @@
+artificial neural network:deep learning:{}
+artificial neural network:computer vision:{}
+artificial neural network:recurrent neural network:{}
+artificial neural network:lyapunov fractal:{}
+artificial neural network:neural network simulation:{}
+artificial neural network:convolutional neural network:{}
+artificial neural network:algorithm:{}
+artificial neural network:experiment:{}
+artificial neural network:simulation:{}
+artificial neural network:mathematical optimization:{}
+artificial neural network:neural network:{}
+artificial neural network:nonlinear system:{}
+artificial neural network:oriol vinyals:{}
+artificial neural network:quoc v. le:{}
+artificial neural network:ilya sutskever:{}
+artificial neural network:alex graves:{}
+artificial neural network:navdeep jaitly:{}
+artificial neural network:geoffrey e. hinton:{}
+artificial neural network:jacob devlin:{}
+artificial neural network:abdel-rahman mohamed:{}
+artificial neural network:yoshua bengio:{}
+artificial neural network:numerical analysis:{}
+artificial neural network:neural networks:{}
+artificial neural network:computation:{}
+artificial neural network:encoder:{}
+artificial neural network:nicolas boulanger-lewandowski:{}
+artificial neural network:richard m. schwartz:{}
+artificial neural network:zhongqiang huang:{}
+artificial neural network:matthew d. zeiler:{}
+artificial neural network:language model:{}
+artificial neural network:john makhoul:{}
+artificial neural network:biological neural networks:{}
+artificial neural network:social inequality:{}
+artificial neural network:iteration:{}
+artificial neural network:approximation algorithm:{}
+artificial neural network:optimal control:{}
+artificial neural network:markov decision process:{}
+artificial neural network:baseline (configuration management):{}
+artificial neural network:finite-time stabilization:{}
+artificial neural network:imagenet:{}
+artificial neural network:random neural network:{}
+artificial neural network:bellman equation:{}
+artificial neural network:linear matrix inequality:{}
+artificial neural network:neural network software:{}
+artificial neural network:neural machine translation:{}
+artificial neural network:phil blunsom:{}
+artificial neural network:bart van merrienboer:{}
+artificial neural network:deep learning papers review at neurotechnology: attention mechanisms neurotechnology mar 15 2017:{}
+artificial neural network:nal kalchbrenner:{}
+artificial neural network:alex krizhevsky:{}
+artificial neural network:time complexity:{}
+artificial neural network:dynamic programming:{}
+artificial neural network:mathematical model:{}
+artificial neural network:recursive neural network:{}
+artificial neural network:bag-of-words model:{}
+artificial neural network:periodic solution:{}
+artificial neural network:state space:{}
+artificial neural network:lyapunov–krasovskii functional:{}
+multimodal interaction:language model:{}
+iterative method:algorithm:{}
+iterative method:artificial neural network:{}
+iterative method:iteration:{}
+iterative method:nonlinear system:{}
+iterative method:approximation algorithm:{}
+iterative method:optimal control:{}
+iterative method:markov decision process:{}
+iterative method:dynamic programming:{}
+iterative method:numerical analysis:{}
+iterative method:mathematical model:{}
+algorithm:optimal control:{}
+algorithm:neural network simulation:{}
+algorithm:markov decision process:{}
+algorithm:mathematical optimization:{}
+algorithm:optimization problem:{}
+algorithm:experiment:{}
+algorithm:numerical analysis:{}
+algorithm:machine learning:{}
+algorithm:data stream mining:{}
+algorithm:approximation algorithm:{}
+algorithm:mathematical model:{}
+analytical models:topology:{}
+analytical models:mathematical model:{}
+analytical models:computers:{}
+analytical models:electronic mail:{}
+topology:mathematical model:{}
+topology:computers:{}
+topology:electronic mail:{}
+particle swarm optimization:mathematical optimization:{}
+particle swarm optimization:premature convergence:{}
+particle swarm optimization:velocity (software development):{}
+particle swarm optimization:uncertainty:{}
+particle swarm optimization:optimization problem:{}
+particle swarm optimization:search algorithm:{}
+particle swarm optimization:metaheuristic:{}
+particle swarm optimization:metaheuristic search (ms):{}
+particle swarm optimization:particle swarm optimization (pso):{}
+particle swarm optimization:neighborhood search (ns) operator:{}
+mathematical optimization:optimization problem:{}
+mathematical optimization:feature selection:{}
+mathematical optimization:experiment:{}
+mathematical optimization:evolutionary algorithm:{}
+mathematical optimization:neural network simulation:{}
+mathematical optimization:neighborhood search (ns) operator:{}
+mathematical optimization:rate of convergence:{}
+ant colony optimization algorithms:mathematical optimization:{}
+ant colony optimization algorithms:feature selection:{}
+iteration:simulation:{}
+iteration:machine learning:{}
+iteration:nonlinear system:{}
+iteration:dynamic programming:{}
+iteration:bellman equation:{}
+iteration:algorithm:{}
+iteration:optimal control:{}
+iteration:neural networks:{}
+iteration:neural network simulation:{}
+iteration:markov decision process:{}
+iteration:approximation algorithm:{}
+iteration:numerical analysis:{}
+simulation:dynamic programming:{}
+simulation:bellman equation:{}
+simulation:algorithm:{}
+simulation:optimal control:{}
+simulation:markov decision process:{}
+simulation:reinforcement learning:{}
+simulation:cognitive radio:{}
+simulation:lyapunov fractal:{}
+simulation:approximation algorithm:{}
+simulation:fault tolerance:{}
+simulation:in-place algorithm:{}
+machine learning:mathematical optimization:{}
+machine learning:optimization problem:{}
+genetic algorithm:heuristic:{}
+genetic algorithm:mathematical optimization:{}
+genetic algorithm:bil herd:{}
+genetic algorithm:information retrieval:{}
+heuristic:mathematical optimization:{}
+heuristic:bil herd:{}
+usb on-the-go:hamilton–jacobi–bellman equation:{}
+usb on-the-go:iteration:{}
+usb on-the-go:nonlinear system:{}
+usb on-the-go:dynamic programming:{}
+usb on-the-go:bellman equation:{}
+usb on-the-go:algorithm:{}
+usb on-the-go:optimal control:{}
+usb on-the-go:neural networks:{}
+usb on-the-go:markov decision process:{}
+usb on-the-go:computer performance:{}
+usb on-the-go:numerical analysis:{}
+usb on-the-go:approximation algorithm:{}
+usb on-the-go:iterative method:{}
+usb on-the-go:artificial neural network:{}
+usb on-the-go:mathematical model:{}
+hamilton–jacobi–bellman equation:iteration:{}
+hamilton–jacobi–bellman equation:nonlinear system:{}
+hamilton–jacobi–bellman equation:simulation:{}
+hamilton–jacobi–bellman equation:dynamic programming:{}
+hamilton–jacobi–bellman equation:bellman equation:{}
+hamilton–jacobi–bellman equation:optimal control:{}
+hamilton–jacobi–bellman equation:neural networks:{}
+hamilton–jacobi–bellman equation:neural network simulation:{}
+hamilton–jacobi–bellman equation:markov decision process:{}
+hamilton–jacobi–bellman equation:artificial neural network:{}
+hamilton–jacobi–bellman equation:approximation algorithm:{}
+nonlinear system:simulation:{}
+nonlinear system:dynamic programming:{}
+nonlinear system:bellman equation:{}
+nonlinear system:algorithm:{}
+nonlinear system:optimal control:{}
+nonlinear system:neural networks:{}
+nonlinear system:neural network simulation:{}
+nonlinear system:markov decision process:{}
+nonlinear system:lyapunov fractal:{}
+nonlinear system:numerical analysis:{}
+nonlinear system:fuzzy logic:{}
+nonlinear system:approximation algorithm:{}
+nonlinear system:finite-time stabilization:{}
+nonlinear system:fault tolerance:{}
+nonlinear system:in-place algorithm:{}
+dynamic programming:bellman equation:{}
+dynamic programming:algorithm:{}
+dynamic programming:optimal control:{}
+dynamic programming:neural networks:{}
+dynamic programming:neural network simulation:{}
+dynamic programming:markov decision process:{}
+dynamic programming:numerical analysis:{}
+dynamic programming:approximation algorithm:{}
+dynamic programming:mathematical model:{}
+dynamic programming:lyapunov fractal:{}
+bellman equation:algorithm:{}
+bellman equation:optimal control:{}
+bellman equation:neural networks:{}
+bellman equation:neural network simulation:{}
+bellman equation:markov decision process:{}
+bellman equation:approximation algorithm:{}
+bellman equation:lyapunov fractal:{}
+optimal control:neural networks:{}
+optimal control:neural network simulation:{}
+optimal control:markov decision process:{}
+optimal control:lyapunov fractal:{}
+optimal control:mathematical model:{}
+neural networks:markov decision process:{}
+neural network simulation:markov decision process:{}
+neural network simulation:social inequality:{}
+neural network simulation:finite-time stabilization:{}
+jacobi method:iteration:{}
+jacobi method:nonlinear system:{}
+jacobi method:bellman equation:{}
+jacobi method:algorithm:{}
+jacobi method:optimal control:{}
+jacobi method:neural network simulation:{}
+jacobi method:markov decision process:{}
+recurrent neural network:ilya sutskever:{}
+recurrent neural network:language model:{}
+recurrent neural network:baseline (configuration management):{}
+recurrent neural network:convolutional neural network:{}
+recurrent neural network:geoffrey e. hinton:{}
+recurrent neural network:alex krizhevsky:{}
+recurrent neural network:computation:{}
+lyapunov fractal:neural network simulation:{}
+lyapunov fractal:mathematical optimization:{}
+lyapunov fractal:optimization problem:{}
+lyapunov fractal:neural networks:{}
+lyapunov fractal:social inequality:{}
+lyapunov fractal:sampling (signal processing):{}
+lyapunov fractal:neural network software:{}
+lyapunov fractal:rate of convergence:{}
+lyapunov fractal:evolutionary algorithm:{}
+premature convergence:velocity (software development):{}
+premature convergence:mathematical optimization:{}
+velocity (software development):mathematical optimization:{}
+velocity (software development):neighborhood search (ns) operator:{}
+sampling (signal processing):noise reduction:{}
+sampling (signal processing):experiment:{}
+noise reduction:experiment:{}
+natural language:knowledge base:{}
+natural language:sentiment analysis:{}
+knowledge base:sentiment analysis:{}
+benchmark (computing):mathematical optimization:{}
+benchmark (computing):particle swarm optimization:{}
+benchmark (computing):search algorithm:{}
+benchmark (computing):metaheuristic:{}
+benchmark (computing):metaheuristic search (ms):{}
+benchmark (computing):particle swarm optimization (pso):{}
+benchmark (computing):velocity (software development):{}
+benchmark (computing):neighborhood search (ns) operator:{}
+benchmark (computing):premature convergence:{}
+benchmark (computing):optimization problem:{}
+xiang zhang:artificial neural network:{}
+xiang zhang:convolutional neural network:{}
+xiang zhang:recurrent neural network:{}
+xiang zhang:ilya sutskever:{}
+xiang zhang:geoffrey e. hinton:{}
+xiang zhang:computation:{}
+xiang zhang:alex krizhevsky:{}
+convolutional neural network:algorithm:{}
+convolutional neural network:geoffrey e. hinton:{}
+convolutional neural network:alex krizhevsky:{}
+convolutional neural network:computation:{}
+convolutional neural network:machine learning:{}
+neural network:numerical analysis:{}
+cognitive radio:interference (communication):{}
+cognitive radio:transmitter:{}
+interference (communication):mathematical optimization:{}
+interference (communication):quality of service:{}
+interference (communication):multitier architecture:{}
+interference (communication):shadowing (histology):{}
+interference (communication):x.690:{}
+interference (communication):coefficient:{}
+interference (communication):constraint algorithm:{}
+interference (communication):bit error rate:{}
+ilya sutskever:convolutional neural network:{}
+ilya sutskever:geoffrey e. hinton:{}
+ilya sutskever:alex krizhevsky:{}
+ilya sutskever:alex graves:{}
+ilya sutskever:navdeep jaitly:{}
+ilya sutskever:jacob devlin:{}
+ilya sutskever:abdel-rahman mohamed:{}
+ilya sutskever:yoshua bengio:{}
+ilya sutskever:zhongqiang huang:{}
+ilya sutskever:matthew d. zeiler:{}
+ilya sutskever:john makhoul:{}
+ilya sutskever:phil blunsom:{}
+ilya sutskever:bart van merrienboer:{}
+ilya sutskever:deep learning papers review at neurotechnology: attention mechanisms neurotechnology mar 15 2017:{}
+ilya sutskever:nal kalchbrenner:{}
+ilya sutskever:baseline (configuration management):{}
+ilya sutskever:computation:{}
+geoffrey e. hinton:alex krizhevsky:{}
+geoffrey e. hinton:abdel-rahman mohamed:{}
+geoffrey e. hinton:yoshua bengio:{}
+geoffrey e. hinton:computation:{}
+sampling - surgical action:lyapunov fractal:{}
+sampling - surgical action:mathematical optimization:{}
+sampling - surgical action:optimization problem:{}
+fuzzy control system:lyapunov fractal:{}
+linear matrix inequalities:genetic regulatory networks:{}
+linear matrix inequalities:krasovskii functional:{}
+linear matrix inequalities:paper studies:{}
+linear matrix inequalities:optimal finite:{}
+linear matrix inequalities:designed algorithm:{}
+linear matrix inequalities:numerical example:{}
+linear matrix inequalities:sufficient condition:{}
+linear matrix inequalities:appropriate lyapunov:{}
+linear matrix inequalities:admissible uncertainties:{}
+linear matrix inequalities:bounded uncertainties:{}
+linear matrix inequalities:uncertain nonlinear mjss:{}
+linear matrix inequalities:time passive controller:{}
+linear matrix inequalities:proposed design approach:{}
+numerical analysis:mathematical optimization:{}
+numerical analysis:lyapunov fractal:{}
+numerical analysis:neural networks:{}
+numerical analysis:neural network simulation:{}
+numerical analysis:finite-time stabilization:{}
+numerical analysis:approximation algorithm:{}
+numerical analysis:optimal control:{}
+numerical analysis:linear matrix inequality:{}
+numerical analysis:mathematical model:{}
+numerical analysis:bil herd:{}
+kyunghyun cho:artificial neural network:{}
+kyunghyun cho:oriol vinyals:{}
+kyunghyun cho:quoc v. le:{}
+kyunghyun cho:ilya sutskever:{}
+kyunghyun cho:jacob devlin:{}
+kyunghyun cho:yoshua bengio:{}
+kyunghyun cho:encoder:{}
+kyunghyun cho:nicolas boulanger-lewandowski:{}
+kyunghyun cho:richard m. schwartz:{}
+kyunghyun cho:zhongqiang huang:{}
+kyunghyun cho:matthew d. zeiler:{}
+kyunghyun cho:john makhoul:{}
+kyunghyun cho:neural machine translation:{}
+kyunghyun cho:phil blunsom:{}
+kyunghyun cho:bart van merrienboer:{}
+kyunghyun cho:deep learning papers review at neurotechnology: attention mechanisms neurotechnology mar 15 2017:{}
+kyunghyun cho:nal kalchbrenner:{}
+oriol vinyals:quoc v. le:{}
+oriol vinyals:ilya sutskever:{}
+oriol vinyals:yoshua bengio:{}
+oriol vinyals:neural machine translation:{}
+oriol vinyals:encoder:{}
+oriol vinyals:phil blunsom:{}
+oriol vinyals:bart van merrienboer:{}
+oriol vinyals:matthew d. zeiler:{}
+oriol vinyals:deep learning papers review at neurotechnology: attention mechanisms neurotechnology mar 15 2017:{}
+oriol vinyals:nal kalchbrenner:{}
+quoc v. le:ilya sutskever:{}
+quoc v. le:yoshua bengio:{}
+quoc v. le:phil blunsom:{}
+quoc v. le:bart van merrienboer:{}
+quoc v. le:matthew d. zeiler:{}
+quoc v. le:deep learning papers review at neurotechnology: attention mechanisms neurotechnology mar 15 2017:{}
+quoc v. le:nal kalchbrenner:{}
+alex graves:navdeep jaitly:{}
+alex graves:geoffrey e. hinton:{}
+alex graves:abdel-rahman mohamed:{}
+navdeep jaitly:geoffrey e. hinton:{}
+navdeep jaitly:abdel-rahman mohamed:{}
+fuzzy set:indexes:{}
+group decision making:consensus:{}
+control theory:simulation:{}
+convex function:empirical risk minimization:{}
+convex function:gradient method:{}
+empirical risk minimization:gradient method:{}
+stochastic gradient descent:machine learning:{}
+stochastic gradient descent:optimization problem:{}
+computation:alex krizhevsky:{}
+image segmentation:multilevel image thresholding:{}
+global optimization:genetic algorithm:{}
+global optimization:heuristic:{}
+global optimization:mathematical optimization:{}
+global optimization:bil herd:{}
+yang liu:statistical machine translation:{}
+yang liu:kyunghyun cho:{}
+yang liu:artificial neural network:{}
+yang liu:encoder:{}
+yang liu:richard m. schwartz:{}
+yang liu:ilya sutskever:{}
+yang liu:zhongqiang huang:{}
+yang liu:matthew d. zeiler:{}
+yang liu:john makhoul:{}
+yang liu:jacob devlin:{}
+statistical machine translation:kyunghyun cho:{}
+statistical machine translation:artificial neural network:{}
+statistical machine translation:encoder:{}
+statistical machine translation:nicolas boulanger-lewandowski:{}
+statistical machine translation:richard m. schwartz:{}
+statistical machine translation:ilya sutskever:{}
+statistical machine translation:zhongqiang huang:{}
+statistical machine translation:matthew d. zeiler:{}
+statistical machine translation:john makhoul:{}
+statistical machine translation:jacob devlin:{}
+statistical machine translation:oriol vinyals:{}
+statistical machine translation:neural machine translation:{}
+statistical machine translation:quoc v. le:{}
+statistical machine translation:phil blunsom:{}
+statistical machine translation:bart van merrienboer:{}
+statistical machine translation:deep learning papers review at neurotechnology: attention mechanisms neurotechnology mar 15 2017:{}
+statistical machine translation:nal kalchbrenner:{}
+statistical machine translation:yoshua bengio:{}
+encoder:nicolas boulanger-lewandowski:{}
+encoder:richard m. schwartz:{}
+encoder:ilya sutskever:{}
+encoder:zhongqiang huang:{}
+encoder:matthew d. zeiler:{}
+encoder:john makhoul:{}
+encoder:jacob devlin:{}
+encoder:quoc v. le:{}
+encoder:phil blunsom:{}
+encoder:bart van merrienboer:{}
+encoder:deep learning papers review at neurotechnology: attention mechanisms neurotechnology mar 15 2017:{}
+encoder:nal kalchbrenner:{}
+encoder:yoshua bengio:{}
+richard m. schwartz:ilya sutskever:{}
+richard m. schwartz:zhongqiang huang:{}
+richard m. schwartz:matthew d. zeiler:{}
+richard m. schwartz:john makhoul:{}
+richard m. schwartz:jacob devlin:{}
+zhongqiang huang:matthew d. zeiler:{}
+zhongqiang huang:john makhoul:{}
+zhongqiang huang:jacob devlin:{}
+matthew d. zeiler:john makhoul:{}
+matthew d. zeiler:jacob devlin:{}
+matthew d. zeiler:deep learning papers review at neurotechnology: attention mechanisms neurotechnology mar 15 2017:{}
+matthew d. zeiler:nal kalchbrenner:{}
+matthew d. zeiler:yoshua bengio:{}
+john makhoul:jacob devlin:{}
+nicolas boulanger-lewandowski:ilya sutskever:{}
+nicolas boulanger-lewandowski:matthew d. zeiler:{}
+biological neural networks:lyapunov fractal:{}
+exponential:neural network simulation:{}
+commercial potential:multiple object tracking:{}
+commercial potential:gained increasing attention:{}
+commercial potential:different kinds:{}
+multiple object tracking:gained increasing attention:{}
+multiple object tracking:different kinds:{}
+gained increasing attention:different kinds:{}
+formal system:nonlinear system:{}
+formal system:fuzzy logic:{}
+formal system:simulation:{}
+formal system:approximation algorithm:{}
+formal system:fault tolerance:{}
+formal system:in-place algorithm:{}
+fuzzy logic:simulation:{}
+fuzzy logic:approximation algorithm:{}
+fuzzy logic:fault tolerance:{}
+fuzzy logic:in-place algorithm:{}
+approximation algorithm:optimal control:{}
+approximation algorithm:markov decision process:{}
+approximation algorithm:sampling (signal processing):{}
+approximation algorithm:noise reduction:{}
+approximation algorithm:experiment:{}
+approximation algorithm:mathematical model:{}
+approximation algorithm:fault tolerance:{}
+approximation algorithm:in-place algorithm:{}
+user using:mobile communication facility:{}
+scalability:approximation algorithm:{}
+baseline (configuration management):geoffrey e. hinton:{}
+baseline (configuration management):alex krizhevsky:{}
+imagenet:computer vision:{}
+computers:electronic mail:{}
+generative model:calculus of variations:{}
+generative model:scalability:{}
+generative model:approximation algorithm:{}
+calculus of variations:scalability:{}
+calculus of variations:approximation algorithm:{}
+search algorithm:metaheuristic:{}
+search algorithm:metaheuristic search (ms):{}
+search algorithm:particle swarm optimization (pso):{}
+search algorithm:velocity (software development):{}
+search algorithm:mathematical optimization:{}
+search algorithm:neighborhood search (ns) operator:{}
+search algorithm:premature convergence:{}
+metaheuristic:metaheuristic search (ms):{}
+metaheuristic:particle swarm optimization (pso):{}
+metaheuristic:velocity (software development):{}
+metaheuristic:mathematical optimization:{}
+metaheuristic:neighborhood search (ns) operator:{}
+metaheuristic:premature convergence:{}
+metaheuristic search (ms):particle swarm optimization (pso):{}
+metaheuristic search (ms):velocity (software development):{}
+metaheuristic search (ms):mathematical optimization:{}
+metaheuristic search (ms):neighborhood search (ns) operator:{}
+particle swarm optimization (pso):velocity (software development):{}
+particle swarm optimization (pso):mathematical optimization:{}
+particle swarm optimization (pso):neighborhood search (ns) operator:{}
+particle swarm optimization (pso):premature convergence:{}
+freebase:entity:{}
+freebase:knowledge graph:{}
+freebase:experiment:{}
+entity:experiment:{}
+feasible region:computation:{}
+objective optimisation problems:dynamic multi:{}
+linear matrix inequality:lyapunov fractal:{}
+linear matrix inequality:social inequality:{}
+linear matrix inequality:neural networks:{}
+computer performance:iteration:{}
+computer performance:nonlinear system:{}
+computer performance:dynamic programming:{}
+computer performance:numerical analysis:{}
+computer performance:approximation algorithm:{}
+computer performance:optimal control:{}
+formal semantics:business processes:{}
+formal semantics:logical language:{}
+formal semantics:framework grounded:{}
+business processes:logical language:{}
+business processes:framework grounded:{}
+logical language:framework grounded:{}
+complex network:lyapunov fractal:{}
+complex network:http public key pinning:{}
+neural network software:neural network simulation:{}
+neural network software:social inequality:{}
+neural machine translation:encoder:{}
+neural machine translation:quoc v. le:{}
+neural machine translation:ilya sutskever:{}
+neural machine translation:phil blunsom:{}
+neural machine translation:bart van merrienboer:{}
+neural machine translation:matthew d. zeiler:{}
+neural machine translation:deep learning papers review at neurotechnology: attention mechanisms neurotechnology mar 15 2017:{}
+neural machine translation:nal kalchbrenner:{}
+neural machine translation:yoshua bengio:{}
+phil blunsom:bart van merrienboer:{}
+phil blunsom:matthew d. zeiler:{}
+phil blunsom:deep learning papers review at neurotechnology: attention mechanisms neurotechnology mar 15 2017:{}
+phil blunsom:nal kalchbrenner:{}
+phil blunsom:yoshua bengio:{}
+bart van merrienboer:matthew d. zeiler:{}
+bart van merrienboer:deep learning papers review at neurotechnology: attention mechanisms neurotechnology mar 15 2017:{}
+bart van merrienboer:nal kalchbrenner:{}
+bart van merrienboer:yoshua bengio:{}
+deep learning papers review at neurotechnology: attention mechanisms neurotechnology mar 15 2017:nal kalchbrenner:{}
+deep learning papers review at neurotechnology: attention mechanisms neurotechnology mar 15 2017:yoshua bengio:{}
+nal kalchbrenner:yoshua bengio:{}
+markovian jump parameters:linear matrix inequalities:{}
+markovian jump parameters:krasovskii functional:{}
+markovian jump parameters:fuzzy model:{}
+markovian jump parameters:time bounded:{}
+markovian jump parameters:stochastically finite:{}
+markovian jump parameters:finite time:{}
+markovian jump parameters:paper studies:{}
+markovian jump parameters:optimal finite:{}
+markovian jump parameters:designed algorithm:{}
+markovian jump parameters:numerical example:{}
+markovian jump parameters:sufficient condition:{}
+markovian jump parameters:appropriate lyapunov:{}
+markovian jump parameters:admissible uncertainties:{}
+markovian jump parameters:bounded uncertainties:{}
+markovian jump parameters:uncertain nonlinear mjss:{}
+markovian jump parameters:time passive controller:{}
+markovian jump parameters:proposed design approach:{}
+krasovskii functional:numerical example:{}
+krasovskii functional:sufficient condition:{}
+krasovskii functional:appropriate lyapunov:{}
+krasovskii functional:admissible uncertainties:{}
+krasovskii functional:bounded uncertainties:{}
+krasovskii functional:uncertain nonlinear mjss:{}
+krasovskii functional:time passive controller:{}
+krasovskii functional:proposed design approach:{}
+time complexity:numerical analysis:{}
+time complexity:linear matrix inequality:{}
+time complexity:lyapunov fractal:{}
+time complexity:social inequality:{}
+wireless sensor networks:network connectivity:{}
+wireless sensor networks:clustering:{}
+network life:wireless sensor networks:{}
+network life:clustering:{}
+brain storm optimization:solutions getting clustered:{}
+brain storm optimization:promising algorithm:{}
+brain storm optimization:brainstorming process:{}
+brain storm optimization:collective behavior:{}
+brain storm optimization:swarm intelligence:{}
+solutions getting clustered:promising algorithm:{}
+solutions getting clustered:brainstorming process:{}
+solutions getting clustered:collective behavior:{}
+solutions getting clustered:swarm intelligence:{}
+promising algorithm:brainstorming process:{}
+promising algorithm:collective behavior:{}
+promising algorithm:swarm intelligence:{}
+brainstorming process:collective behavior:{}
+brainstorming process:swarm intelligence:{}
+collective behavior:swarm intelligence:{}
+partition function (mathematics):autoencoder:{}
+partition function (mathematics):approximation algorithm:{}
+partition function (mathematics):sampling (signal processing):{}
+partition function (mathematics):noise reduction:{}
+partition function (mathematics):experiment:{}
+autoencoder:approximation algorithm:{}
+autoencoder:sampling (signal processing):{}
+autoencoder:noise reduction:{}
+autoencoder:experiment:{}
+throughput:cognitive radio:{}
+operator networks environment:hybrid decision algorithm:{}
+cuckoo search:mathematical optimization:{}
+cuckoo search:cuckoo search :{}
+rate of convergence:evolutionary algorithm:{}
+knowledge graph:entity:{}
+knowledge graph:experiment:{}
+risk evaluation:failure mode and effects analysis:{}
+activation function:social inequality:{}
+activation function:artificial neural network:{}
+activation function:linear matrix inequality:{}
+criteria decision making:paper investigates:{}
+convex optimization:mathematical optimization:{}
+convex optimization:constrained optimization:{}
+convex optimization:http public key pinning:{}
+convex optimization:lyapunov fractal:{}
+convex optimization:rate of convergence:{}
+convex optimization:evolutionary algorithm:{}
+n-gram:skip list:{}
+n-gram:word embedding:{}
+n-gram:sampling (signal processing):{}
+skip list:word embedding:{}
+skip list:sampling (signal processing):{}
+word embedding:sampling (signal processing):{}
+yang:cuckoo search:{}
+yang:cuckoo search :{}
+yang:mathematical optimization:{}
+cuckoo search :mathematical optimization:{}
+security :sensitivity :{}
+security :diffusion process :{}
+security :image encryption :{}
+sensitivity :diffusion process :{}
+sensitivity :image encryption :{}
+diffusion process :image encryption :{}
+constrained optimization:http public key pinning:{}
+constrained optimization:lyapunov fractal:{}
+constrained optimization:mathematical optimization:{}
+constrained optimization:rate of convergence:{}
+constrained optimization:evolutionary algorithm:{}
+http public key pinning:lyapunov fractal:{}
+http public key pinning:mathematical optimization:{}
+http public key pinning:rate of convergence:{}
+http public key pinning:evolutionary algorithm:{}
+pixel:xiang zhang:{}
+pixel:artificial neural network:{}
+pixel:recurrent neural network:{}
+pixel:ilya sutskever:{}
+pixel:convolutional neural network:{}
+pixel:geoffrey e. hinton:{}
+pixel:computation:{}
+pixel:alex krizhevsky:{}
+mean squared error:http public key pinning:{}
+mean squared error:lyapunov fractal:{}
+mean squared error:mathematics:{}
+mean squared error:mathematical induction:{}
+fault tolerance:in-place algorithm:{}
+recursive neural network:bag-of-words model:{}
+recursive neural network:baseline (configuration management):{}
+bag-of-words model:baseline (configuration management):{}
+facto standard:currently support:{}
+facto standard:70 commercial tools:{}
+currently support:70 commercial tools:{}
+mathematics:mathematical induction:{}
+mathematics:lyapunov fractal:{}
+mathematical induction:lyapunov fractal:{}
+cell-to-cell communication:chemotaxis:{}
+cell-to-cell communication:self-adaptation:{}
+chemotaxis:self-adaptation:{}
+point of view (computer hardware company):interference (communication):{}
+point of view (computer hardware company):rayleigh fading:{}
+point of view (computer hardware company):mimo:{}
+point of view (computer hardware company):mimo-ofdm:{}
+point of view (computer hardware company):shadowing (histology):{}
+point of view (computer hardware company):multitier architecture:{}
+point of view (computer hardware company):x.690:{}
+point of view (computer hardware company):coefficient:{}
+point of view (computer hardware company):constraint algorithm:{}
+point of view (computer hardware company):bit error rate:{}
+point of view (computer hardware company):quality of service:{}
+state space:neural network simulation:{}
+bil herd:mathematical optimization:{}
+lyapunov–krasovskii functional:numerical analysis:{}
+lyapunov–krasovskii functional:linear matrix inequality:{}
+lyapunov–krasovskii functional:lyapunov fractal:{}
+logical dynamic:temporal boolean network:{}
+global optimization problem :krill herd (kh) :{}
+global optimization problem :numerical analysis:{}
+global optimization problem :bil herd:{}
+global optimization problem :mathematical optimization:{}
+krill herd (kh) :numerical analysis:{}
+krill herd (kh) :bil herd:{}
+krill herd (kh) :mathematical optimization:{}
+theoretical results:numerical simulations:{}
+multitier architecture:quality of service:{}
+multitier architecture:x.690:{}
+multitier architecture:coefficient:{}
+multitier architecture:constraint algorithm:{}
+multitier architecture:bit error rate:{}
+mimo:interference (communication):{}
+mimo:mimo-ofdm:{}
+mimo:shadowing (histology):{}
+mimo:multitier architecture:{}
+mimo:x.690:{}
+mimo:coefficient:{}
+mimo:constraint algorithm:{}
+mimo:bit error rate:{}
+mimo:quality of service:{}
+information retrieval:mathematical optimization:{}
+rayleigh fading:mimo:{}
+rayleigh fading:mimo-ofdm:{}
+rayleigh fading:interference (communication):{}
+rayleigh fading:shadowing (histology):{}
+rayleigh fading:multitier architecture:{}
+rayleigh fading:x.690:{}
+rayleigh fading:coefficient:{}
+rayleigh fading:constraint algorithm:{}
+rayleigh fading:bit error rate:{}
+rayleigh fading:quality of service:{}
+mimo-ofdm:interference (communication):{}
+mimo-ofdm:shadowing (histology):{}
+mimo-ofdm:multitier architecture:{}
+mimo-ofdm:x.690:{}
+mimo-ofdm:coefficient:{}
+mimo-ofdm:constraint algorithm:{}
+mimo-ofdm:bit error rate:{}
+mimo-ofdm:quality of service:{}
+shadowing (histology):multitier architecture:{}
+shadowing (histology):x.690:{}
+shadowing (histology):coefficient:{}
+shadowing (histology):constraint algorithm:{}
+shadowing (histology):bit error rate:{}
+shadowing (histology):quality of service:{}
+x.690:coefficient:{}
+x.690:constraint algorithm:{}
+x.690:bit error rate:{}
+x.690:quality of service:{}
+coefficient:constraint algorithm:{}
+coefficient:bit error rate:{}
+coefficient:quality of service:{}
+constraint algorithm:bit error rate:{}
+constraint algorithm:quality of service:{}
+bit error rate:quality of service:{}
+fuzzy model:time bounded:{}
+fuzzy model:stochastically finite:{}
+fuzzy model:finite time:{}
+fuzzy model:linear matrix inequalities:{}
+fuzzy model:paper studies:{}
+fuzzy model:optimal finite:{}
+fuzzy model:designed algorithm:{}
+fuzzy model:krasovskii functional:{}
+fuzzy model:numerical example:{}
+fuzzy model:sufficient condition:{}
+fuzzy model:appropriate lyapunov:{}
+fuzzy model:admissible uncertainties:{}
+fuzzy model:bounded uncertainties:{}
+fuzzy model:uncertain nonlinear mjss:{}
+fuzzy model:time passive controller:{}
+fuzzy model:proposed design approach:{}
+time bounded:stochastically finite:{}
+time bounded:finite time:{}
+time bounded:linear matrix inequalities:{}
+time bounded:paper studies:{}
+time bounded:optimal finite:{}
+time bounded:designed algorithm:{}
+time bounded:krasovskii functional:{}
+time bounded:numerical example:{}
+time bounded:sufficient condition:{}
+time bounded:appropriate lyapunov:{}
+time bounded:admissible uncertainties:{}
+time bounded:bounded uncertainties:{}
+time bounded:uncertain nonlinear mjss:{}
+time bounded:time passive controller:{}
+time bounded:proposed design approach:{}
+stochastically finite:finite time:{}
+stochastically finite:linear matrix inequalities:{}
+stochastically finite:paper studies:{}
+stochastically finite:optimal finite:{}
+stochastically finite:designed algorithm:{}
+stochastically finite:krasovskii functional:{}
+stochastically finite:numerical example:{}
+stochastically finite:sufficient condition:{}
+stochastically finite:appropriate lyapunov:{}
+stochastically finite:admissible uncertainties:{}
+stochastically finite:bounded uncertainties:{}
+stochastically finite:uncertain nonlinear mjss:{}
+stochastically finite:time passive controller:{}
+stochastically finite:proposed design approach:{}
+finite time:linear matrix inequalities:{}
+finite time:paper studies:{}
+finite time:optimal finite:{}
+finite time:designed algorithm:{}
+finite time:krasovskii functional:{}
+finite time:numerical example:{}
+finite time:sufficient condition:{}
+finite time:appropriate lyapunov:{}
+finite time:admissible uncertainties:{}
+finite time:bounded uncertainties:{}
+finite time:uncertain nonlinear mjss:{}
+finite time:time passive controller:{}
+finite time:proposed design approach:{}
+paper studies:optimal finite:{}
+paper studies:designed algorithm:{}
+paper studies:krasovskii functional:{}
+paper studies:numerical example:{}
+paper studies:sufficient condition:{}
+paper studies:appropriate lyapunov:{}
+paper studies:admissible uncertainties:{}
+paper studies:bounded uncertainties:{}
+paper studies:uncertain nonlinear mjss:{}
+paper studies:time passive controller:{}
+paper studies:proposed design approach:{}
+optimal finite:designed algorithm:{}
+optimal finite:krasovskii functional:{}
+optimal finite:numerical example:{}
+optimal finite:sufficient condition:{}
+optimal finite:appropriate lyapunov:{}
+optimal finite:admissible uncertainties:{}
+optimal finite:bounded uncertainties:{}
+optimal finite:uncertain nonlinear mjss:{}
+optimal finite:time passive controller:{}
+optimal finite:proposed design approach:{}
+designed algorithm:krasovskii functional:{}
+designed algorithm:numerical example:{}
+designed algorithm:sufficient condition:{}
+designed algorithm:appropriate lyapunov:{}
+designed algorithm:admissible uncertainties:{}
+designed algorithm:bounded uncertainties:{}
+designed algorithm:uncertain nonlinear mjss:{}
+designed algorithm:time passive controller:{}
+designed algorithm:proposed design approach:{}
+numerical example:sufficient condition:{}
+numerical example:appropriate lyapunov:{}
+numerical example:admissible uncertainties:{}
+numerical example:bounded uncertainties:{}
+numerical example:uncertain nonlinear mjss:{}
+numerical example:time passive controller:{}
+numerical example:proposed design approach:{}
+sufficient condition:appropriate lyapunov:{}
+sufficient condition:admissible uncertainties:{}
+sufficient condition:bounded uncertainties:{}
+sufficient condition:uncertain nonlinear mjss:{}
+sufficient condition:time passive controller:{}
+sufficient condition:proposed design approach:{}
+appropriate lyapunov:admissible uncertainties:{}
+appropriate lyapunov:bounded uncertainties:{}
+appropriate lyapunov:uncertain nonlinear mjss:{}
+appropriate lyapunov:time passive controller:{}
+appropriate lyapunov:proposed design approach:{}
+admissible uncertainties:bounded uncertainties:{}
+admissible uncertainties:uncertain nonlinear mjss:{}
+admissible uncertainties:time passive controller:{}
+admissible uncertainties:proposed design approach:{}
+bounded uncertainties:uncertain nonlinear mjss:{}
+bounded uncertainties:time passive controller:{}
+bounded uncertainties:proposed design approach:{}
+uncertain nonlinear mjss:time passive controller:{}
+uncertain nonlinear mjss:proposed design approach:{}
+time passive controller:proposed design approach:{}
