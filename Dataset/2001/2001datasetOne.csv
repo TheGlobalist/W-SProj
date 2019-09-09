@@ -1,0 +1,59 @@
+anno,keyword1,keyword2,relationship
+2001,signal processing algorithms,filtering algorithms,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,signal processing algorithms,signal processing,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 3, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 3}"
+2001,state-space methods,mathematics,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,state-space methods,state estimation,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 3, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 3}"
+2001,state-space methods,signal processing,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 3, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 3}"
+2001,mathematics,signal processing,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,filtering algorithms,state estimation,{'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}
+2001,filtering algorithms,monte carlo methods,{'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}
+2001,filtering algorithms,signal processing,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,state estimation,monte carlo methods,{'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}
+2001,state estimation,signal processing,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,feedforward neural network,artificial neural network,{'17eceef261c7bac8d4842dd0b595ad8e720b4ac8': 2}
+2001,feedforward neural network,algorithm,{'17eceef261c7bac8d4842dd0b595ad8e720b4ac8': 2}
+2001,artificial neural network,algorithm,{'17eceef261c7bac8d4842dd0b595ad8e720b4ac8': 2}
+2001,formal ontologies,transportable machine understanding,"{'3bdbf5c56ab290f9740960a87d090917faf1ec34': 2, 'dd8816a3b0a3c8cbeb5d11da9465c49ed002bcae': 2}"
+2001,filtering,state-space methods,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,filtering,stochastic processes,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,filtering,signal processing,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 3, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 3}"
+2001,state-space methods,stochastic processes,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,stochastic processes,state estimation,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,stochastic processes,signal processing,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,laboratories,fading,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,laboratories,signal processing,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,fading,signal processing,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,computer simulation,linear systems,{'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}
+2001,computer simulation,deconvolution,{'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}
+2001,computer simulation,state estimation,{'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}
+2001,linear systems,deconvolution,{'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}
+2001,linear systems,state estimation,{'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}
+2001,stochastic processes,deconvolution,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,deconvolution,state estimation,{'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}
+2001,artificial neural network,cluster analysis,{'85348624298e0d0a780ea136e60de511ede02856': 2}
+2001,artificial neural network,real life,{'85348624298e0d0a780ea136e60de511ede02856': 2}
+2001,cluster analysis,real life,{'85348624298e0d0a780ea136e60de511ede02856': 2}
+2001,filtering,bayesian methods,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,bayesian methods,signal processing,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,markov chain monte carlo ,importance sampling ,"{'059aa865f5a5c8cf7851f2561c04c226e694f0cf': 2, 'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}"
+2001,filtering algorithms,particle filters,{'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}
+2001,multilayer feedforward neural networks,increment,{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,multilayer feedforward neural networks,projection learning,{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,multilayer feedforward neural networks,generalization capability,{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,multilayer feedforward neural networks,generalization (psychology),{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,multilayer feedforward neural networks,reproducing kernel hilbert space,{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,increment,projection learning,{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,increment,generalization capability,{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,increment,generalization (psychology),{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,increment,reproducing kernel hilbert space,{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,projection learning,generalization capability,{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,projection learning,generalization (psychology),{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,projection learning,reproducing kernel hilbert space,{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,generalization capability,generalization (psychology),{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,generalization capability,reproducing kernel hilbert space,{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,generalization (psychology),reproducing kernel hilbert space,{'08334afe85f2ab76d50815e4f5d6de15b29f3f20': 2}
+2001,s function,passage method,"{'30ef069a68e811d566f1cb9347122c35ca9930d8': 2, 'b2bb40bc2a58a69a304cda6861a602095762de28': 2}"
+2001,deconvolution,smoothing methods,{'f244cb690f7148f01bc6f3ce7ae1e90be91440af': 2}
+2001,widely acknowledged,domain ontologies,"{'c5bfa5fa499d47b9004f145bf2213a61b9619afd': 2, '3bf7a010ce3e000a1314d728bc188ba641226a60': 2}"
+2001,widely acknowledged,useful tools,"{'c5bfa5fa499d47b9004f145bf2213a61b9619afd': 2, '3bf7a010ce3e000a1314d728bc188ba641226a60': 2}"
+2001,domain ontologies,useful tools,"{'c5bfa5fa499d47b9004f145bf2213a61b9619afd': 2, '3bf7a010ce3e000a1314d728bc188ba641226a60': 2}"
