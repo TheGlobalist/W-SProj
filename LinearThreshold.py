@@ -7,15 +7,16 @@ def linear_threshold(G,S):
         G.node[n]['threshold'] = random.random()
     wave = 0
     diffusion = {}
-    active = set() #cambia a set in quanto oneroso
+    diffusion[0] = copy.deepcopy(S)
+    active = set(copy.deepcopy(S))
     while True:
         added = []
         wave += 1
         for n in nx.nodes(G):
-            if n not in active and n in S:
+            if n not in active:
                 influence = 0
                 for edge in G.in_edges(n,data=True):
-                    if edge[0] not in active:
+                    if edge[0] in active:
                         try :
                             influence += 1/ G.in_degree(n)
                         except ZeroDivisionError:

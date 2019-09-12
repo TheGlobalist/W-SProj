@@ -94,7 +94,7 @@ def __areNodesConnected(G, nodeToCheckOne,nodeToCheckTwo):
 
 anni = list(range(2000,2010))
 grafiPerAnno = createGraphPerYear(anni)
-k = 10
+k = 5
 finalTopicsList = dict()
 
 for x in grafiPerAnno:
@@ -102,13 +102,17 @@ for x in grafiPerAnno:
     pr = nx.pagerank(G)
     #h,a = nx.hits(G,max_iter=10000)
     topKSorted= sorted(pr.items(), key=operator.itemgetter(1))[0:k]
-    topKLabels = set(x[0] for x in topKSorted) #cambia a set in quanto oneroso
+    topKLabels = [x[0] for x in topKSorted]
 
     test = nx.attr_matrix(G)
 
     cluster = AgglomerativeClustering(n_clusters=2, affinity='euclidean', linkage='ward')
     #cluster.fit_predict(X)
-    topics = linear_threshold(G, topKLabels)
+    topics = []
+    for i in range(len(topKLabels)):
+        attivazione = linear_threshold(G, [topKLabels[i]])
+        topics.append(attivazione)
+    #topics = linear_threshold(G, topKLabels)
     topicsAsList = np.array(list(topics.values())).flatten()
     if len(topicsAsList) > 1:
         subgraph = G.subgraph(topicsAsList).copy()
@@ -135,4 +139,67 @@ for x in grafiPerAnno:
             else:
                 print("ciao")
 
-
+"""
+topics
+[{0: [...], 1: [...]}, {0: [...], 1: [...]}, {0: [...], 1: [...]}, {0: [...], 1: [...]}, {0: [...], 1: [...]}]
+topics[0][0]
+['artificial neural network']
+sottografoOne = G.subgraph(topics[0][0]).copy()
+topics[1][0]
+['nonlinear system']
+topics[0]
+{0: ['artificial neural network'], 1: ['neural network simulation']}
+topics[0].values()
+dict_values([['artificial neural network'], ['neural network simulation']])
+[d['value'] for d in topics[0]]
+TypeError: 'int' object is not subscriptable
+[topics[0][d] for d in topics[0]]
+[['artificial neural network'], ['neural network simulation']]
+0: ['artificial neural network']
+1: ['neural network simulation']
+__len__: 2
+np.array([topics[0][d] for d in topics[0]]).flatten()
+array(['artificial neural network', 'neural network simulation'],
+      dtype='<U25')
+np.array([topics[0][d] for d in topics[0]]).flatten()[0]
+'artificial neural network'
+np.array([topics[0][d] for d in topics[0]]).flatten()[1]
+'neural network simulation'
+tmp1 = [topics[0][d] for d in topics[0]]
+tmp1
+[['artificial neural network'], ['neural network simulation']]
+sottografoOne = G.subgraph(np.array([topics[0][d] for d in topics[0]]).flatten()).copy()
+tmp2 = [topics[1][d] for d in topics[1]]
+sottografoTwo = G.subgraph(np.array([topics[1][d] for d in topics[1]]).flatten()).copy()
+networkx.exception.NetworkXError: Node ['nonlinear system'] in sequence nbunch is not a valid node.
+[topics[1][d] for d in topics[1]]
+[['nonlinear system'], ['simulation', 'motion estimation\xa0', 'motion estimation\xa0']]
+tmp2
+[['nonlinear system'], ['simulation', 'motion estimation\xa0', 'motion estimation\xa0']]
+tmp2.flatten()
+AttributeError: 'list' object has no attribute 'flatten'
+np.array(tmp2).flatten()
+array([list(['nonlinear system']),
+       list(['simulation', 'motion estimation\xa0', 'motion estimation\xa0'])],
+      dtype=object)
+np.array(tmp2).flatten()[0]
+['nonlinear system']
+np.array(tmp2).flatten().flatten()
+array([list(['nonlinear system']),
+       list(['simulation', 'motion estimation\xa0', 'motion estimation\xa0'])],
+      dtype=object)
+[item for tmp2 in l for item in tmp2]
+NameError: name 'l' is not defined
+[item for tmp2 in tmp2 for item in tmp2]
+['nonlinear system', 'simulation', 'motion estimation\xa0', 'motion estimation\xa0']
+0: 'nonlinear system'
+1: 'simulation'
+2: 'motion estimation\xa0'
+3: 'motion estimation\xa0'
+__len__: 4
+sottografoTwo = G.subgraph(np.array([item for tmp2 in tmp2 for item in tmp2]).flatten()).copy()
+nx.clustering(sottografoOne)
+{'artificial neural network': 0, 'neural network simulation': 0}
+nx.clustering(sottografoTwo)
+{'motion estimation\xa0': 0.5, 'nonlinear system': 0.5, 'simulation': 0.5}
+"""
