@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import random
 import operator
+import re, math 
+from collections import Counter 
 import json
 import ast
 from sklearn.cluster import AgglomerativeClustering
@@ -32,26 +34,12 @@ def graph_to_edge_matrix(G):
 
     return edge_mat
 
-"""def test(G,dsOne, dsTwo):
-    for edge in G.edges:
-        data = G.get_edge_data(edge[0],edge[1])['relationship']
-        autoriPerImportanza = dict()
-        for autore in data:
-            conteggioAutore = dsTwo[dsTwo['auth1'] == autore]
-            print(len(conteggioAutore))
-            conteggioAutore2 = dsTwo[dsTwo['auth1'] == autore] if len(conteggioAutore) == 0 else 0
-            autoriPerImportanza[edge] = len(conteggioAutore) + len(conteggioAutore2)
-        if len(data) > 1:
-            permutazioni = permutations(data,2)
-            for elemOne, elemTwo in permutazioni:
-"""          
+
 
 
 
 def getEdgeWeight(dsTwo, data):
     weight = 0
-    intersezione = None
-    unione = None
     for autore in data:
         conteggioAutore = dsTwo[dsTwo['auth1'] == autore]
         conteggioAutore2 = dsTwo[dsTwo['auth2'] == autore]
@@ -62,9 +50,25 @@ def getEdgeWeight(dsTwo, data):
 def weightedJaccard(dataOne, dataTwo):
     autoriOne = [x for x in dataOne]
     autoriTwo = [x for x in dataTwo]
-    return set(autoriOne).intersection(set(autoriTwo)) / set(autoriOne).union(set(autoriTwo))
+    return len(set(autoriOne).intersection(set(autoriTwo))) / len(set(autoriOne).union(set(autoriTwo)))
 
 
+  
+WORD = re.compile(r'\w+') 
+def get_cosine(vec1, vec2): 
+    intersection = set(vec1.keys()) & set(vec2.keys()) 
+    numerator = sum([vec1[x] * vec2[x] for x in intersection]) 
+    sum1 = sum([vec1[x]**2 for x in vec1.keys()]) 
+    sum2 = sum([vec2[x]**2 for x in vec2.keys()]) 
+    denominator = math.sqrt(sum1) * math.sqrt(sum2) 
+    if not denominator: 
+        return 0.0 
+    else: 
+        return float(numerator) / denominator 
+
+def text_to_vector(text): 
+    words = WORD.findall(text) 
+    return Counter(words) 
 
 def createGraphPerYear(anni):
     grafi = dict()
@@ -82,7 +86,7 @@ def createGraphPerYear(anni):
             if not __areNodesConnected(G,row.keyword1, row.keyword2):
                 relazione = ast.literal_eval(row.relationship)
                 edgeWeight = getEdgeWeight(datasetTemporaleTwo, relazione)
-                G.add_edge(row.keyword1,row.keyword2,relationship=relazione, weight=random.random())
+                G.add_edge(row.keyword1,row.keyword2,relationship=relazione, weight=edgeWeight)
         grafi[anno] = G
         #test(G,datasetTemporaleOne,datasetTemporaleTwo)
     return grafi
@@ -92,7 +96,7 @@ def __areNodesConnected(G, nodeToCheckOne,nodeToCheckTwo):
     return nodeToCheckOne in G.neighbors(nodeToCheckTwo)
 
 
-anni = list(range(2000,2010))
+anni = list(range(2000,2019))
 grafiPerAnno = createGraphPerYear(anni)
 k = 5
 finalTopicsList = dict()
@@ -104,102 +108,47 @@ for x in grafiPerAnno:
     topKSorted= sorted(pr.items(), key=operator.itemgetter(1))[0:k]
     topKLabels = [x[0] for x in topKSorted]
 
-    test = nx.attr_matrix(G)
 
     cluster = AgglomerativeClustering(n_clusters=2, affinity='euclidean', linkage='ward')
-    #cluster.fit_predict(X)
+    #test = cluster.fit_predict(X.toarray())
     topics = []
     for i in range(len(topKLabels)):
         attivazione = linear_threshold(G, [topKLabels[i]])
         topics.append(attivazione)
-    #topics = linear_threshold(G, topKLabels)
-    topicsAsList = np.array(list(topics.values())).flatten()
+    topicsAsList = []
+    for dizionario in topics:
+        for chiave in dizionario:
+            topicsAsList.extend(dizionario[chiave])
+    topicsAsList = set(topicsAsList)
     if len(topicsAsList) > 1:
         subgraph = G.subgraph(topicsAsList).copy()
-        #clusterized = cluster.fit_predict(nx.adjacency_matrix(subgraph).todense())
-        clusterized = nx.clustering(subgraph)
-        topicsToInsert = [key for key in clusterized if clusterized[key] > 0.3]
+        clusterized = cluster.fit_predict(nx.adjacency_matrix(subgraph).todense())
+        topicsToInsert = [list(topicsAsList)[i] for i in range(len(clusterized)) if clusterized[i] == 1]
         finalTopicsList[x] = {'graph': G, 'subgraph': subgraph, 'topics': topicsToInsert} 
     else:
         finalTopicsList[x] = {'graph': G, 'subgraph': None, 'topics': topicsAsList} 
 
 topicsFinali = []
 for x in grafiPerAnno:
+    if x == 2018:
+        break
     grafoAnnoCorrente = finalTopicsList[x]
-    annoSuccessivo = x+1 if x < 2009 else x
+    annoSuccessivo = x+1 if x < 2018 else x
     grafoAnnoSuccessivo = finalTopicsList[annoSuccessivo]
-    for topic in grafoAnnoCorrente['topics']:
-        if topic in grafoAnnoSuccessivo['topics']:
-            chiaveGrafoUno = list(grafoAnnoCorrente['subgraph'][topic]._atlas.keys())[0]
-            dataOne = [key for key in grafoAnnoCorrente[topic][chiaveGrafoUno].keys()]
-            chiaveGrafoDue = list(grafoAnnoSuccessivo[topic]._atlas.keys())[0]
-            dataTwo = [key for key in grafoAnnoSuccessivo[topic][chiaveGrafoDue].keys()]
-            if weightedJaccard(dataOne,dataTwo) > 0.04:
-                pass
-            else:
-                print("ciao")
-
-"""
-topics
-[{0: [...], 1: [...]}, {0: [...], 1: [...]}, {0: [...], 1: [...]}, {0: [...], 1: [...]}, {0: [...], 1: [...]}]
-topics[0][0]
-['artificial neural network']
-sottografoOne = G.subgraph(topics[0][0]).copy()
-topics[1][0]
-['nonlinear system']
-topics[0]
-{0: ['artificial neural network'], 1: ['neural network simulation']}
-topics[0].values()
-dict_values([['artificial neural network'], ['neural network simulation']])
-[d['value'] for d in topics[0]]
-TypeError: 'int' object is not subscriptable
-[topics[0][d] for d in topics[0]]
-[['artificial neural network'], ['neural network simulation']]
-0: ['artificial neural network']
-1: ['neural network simulation']
-__len__: 2
-np.array([topics[0][d] for d in topics[0]]).flatten()
-array(['artificial neural network', 'neural network simulation'],
-      dtype='<U25')
-np.array([topics[0][d] for d in topics[0]]).flatten()[0]
-'artificial neural network'
-np.array([topics[0][d] for d in topics[0]]).flatten()[1]
-'neural network simulation'
-tmp1 = [topics[0][d] for d in topics[0]]
-tmp1
-[['artificial neural network'], ['neural network simulation']]
-sottografoOne = G.subgraph(np.array([topics[0][d] for d in topics[0]]).flatten()).copy()
-tmp2 = [topics[1][d] for d in topics[1]]
-sottografoTwo = G.subgraph(np.array([topics[1][d] for d in topics[1]]).flatten()).copy()
-networkx.exception.NetworkXError: Node ['nonlinear system'] in sequence nbunch is not a valid node.
-[topics[1][d] for d in topics[1]]
-[['nonlinear system'], ['simulation', 'motion estimation\xa0', 'motion estimation\xa0']]
-tmp2
-[['nonlinear system'], ['simulation', 'motion estimation\xa0', 'motion estimation\xa0']]
-tmp2.flatten()
-AttributeError: 'list' object has no attribute 'flatten'
-np.array(tmp2).flatten()
-array([list(['nonlinear system']),
-       list(['simulation', 'motion estimation\xa0', 'motion estimation\xa0'])],
-      dtype=object)
-np.array(tmp2).flatten()[0]
-['nonlinear system']
-np.array(tmp2).flatten().flatten()
-array([list(['nonlinear system']),
-       list(['simulation', 'motion estimation\xa0', 'motion estimation\xa0'])],
-      dtype=object)
-[item for tmp2 in l for item in tmp2]
-NameError: name 'l' is not defined
-[item for tmp2 in tmp2 for item in tmp2]
-['nonlinear system', 'simulation', 'motion estimation\xa0', 'motion estimation\xa0']
-0: 'nonlinear system'
-1: 'simulation'
-2: 'motion estimation\xa0'
-3: 'motion estimation\xa0'
-__len__: 4
-sottografoTwo = G.subgraph(np.array([item for tmp2 in tmp2 for item in tmp2]).flatten()).copy()
-nx.clustering(sottografoOne)
-{'artificial neural network': 0, 'neural network simulation': 0}
-nx.clustering(sottografoTwo)
-{'motion estimation\xa0': 0.5, 'nonlinear system': 0.5, 'simulation': 0.5}
-"""
+    topicOne = grafoAnnoCorrente['topics']
+    topicTwo =  set(grafoAnnoSuccessivo['topics'])
+    print("The year is... " + str(x))
+    print("-------------------------------")
+    print("Checking\n" + str(x) + "'s topics: " + str(topicOne) + "\n" + str(x+1) + "'s topics: " + str(topicTwo))
+    for argomento in topicOne:
+        print("Now checking keyword..." + str(argomento))
+        if grafoAnnoSuccessivo['subgraph'].has_node(argomento):
+            print(str(argomento) + " is inside the list! let's see the topic similarity...")
+            similarity = weightedJaccard(grafoAnnoCorrente['topics'], grafoAnnoSuccessivo['topics'])
+            vecOne = text_to_vector(', '.join(topicOne))
+            vecTwo = text_to_vector(', '.join(topicTwo))
+            cosine = get_cosine(vecOne,vecTwo)
+            if cosine > 0.3:
+                print("Threshold exceeded! I can merge the topics...")
+                topicsFinali.extend(set(topicOne).union(topicTwo))
+print(topicsFinali)
